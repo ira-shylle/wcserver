@@ -3,9 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Members from '../views/Members.vue'
 import News from '../views/News.vue'
-import Login from '../views/Login.vue'
-import Signup from '../views/Signup.vue'
-import Events from '../views/Events.vue'
+
 
 Vue.use(VueRouter)
 
@@ -24,21 +22,6 @@ const routes = [
     path: '/News',
     name: 'News',
     component: News
-  },
-  {
-    path: '/Login',
-    name: 'Login',
-    component: Login
-  },
-  {
-    path: '/Signup',
-    name: 'Signup',
-    component: Signup
-  },
-  {
-    path: '/Events',
-    name: 'Events',
-    component: Events
   }
 ]
 
