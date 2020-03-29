@@ -14,7 +14,8 @@
               <li><a href="#">Menu</a></li>
               <li><a href="/Members">Members</a></li>
               <li><a href="/News">News</a></li>
-              <li><a href="#">Account</a></li>
+              <li><a href="/Events">Events</a></li>
+              <li><a href="/Login">Account</a></li>
             </ul>
           </div>
 
